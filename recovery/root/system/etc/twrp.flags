@@ -19,6 +19,7 @@
 /omr_image	    emmc		/dev/block/bootdevice/by-name/omr		    flags=backup=1;flashimg=1;display="OMR Image"
 /optics_image	emmc		/dev/block/bootdevice/by-name/optics		flags=backup=1;flashimg=1;display="Optics Image"
 /prism_image	emmc		/dev/block/bootdevice/by-name/prism		    flags=backup=1;flashimg=1;display="Prism Image"
+/up_param	emmc		/dev/block/bootdevice/by-name/up_param		    flags=backup=1;flashimg=1
 
 # Samsung ODE (Knox DualDAR)
 /keydata        ext4		/dev/block/bootdevice/by-name/keydata		flags=backup=1;display="Keydata";wipeduringfactoryreset
